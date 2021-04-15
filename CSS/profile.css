@@ -157,3 +157,24 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.change {
+    cursor: pointer;
+}
+
+.change_fields{
+    width: 90%;
+	height: 50%;
+    border-radius: 15px;
+    background-color: white;
+    color: #0097e3;
+    box-shadow: 0 0 10px dimgray;
+	display: none;
+	margin-left: 5%;
+	padding-left: 5%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5%;
+    margin-bottom: 10px;
+    z-index: 2;
+}
