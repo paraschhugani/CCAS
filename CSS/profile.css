@@ -90,6 +90,7 @@ body {
 .content-main {
     margin-left: 5%;
     color: #0097e3;
+    transition: all 0.3s ease;
 }
 
 .info {
@@ -180,4 +181,9 @@ body {
     z-index: 99;
     position: fixed;
     font-size: 20px;
+}
+
+.blur {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
