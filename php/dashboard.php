@@ -3,7 +3,7 @@
     $username = "root";
     $password = "";
     $DB = "CCAS";
-    $sqlquery = "SELECT nid, title FROM Notice";
+    $sqlquery = "SELECT nid, title FROM Notice ORDER BY nid DESC LIMIT 8";
     $headera_cons = "location:../Notice.html?";
     $counter = '1';
     
